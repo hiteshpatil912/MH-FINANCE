@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-finance-black text-finance-light;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-sm font-medium tracking-wide transition-colors hover:text-finance-gold;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-[-4px] w-0 h-[2px] bg-finance-gold transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .glass-header {
+    @apply border-b border-finance-gray/50 bg-finance-black/80 backdrop-blur-md;
+  }
+
+  .btn-gold {
+    @apply bg-finance-gold text-finance-black px-6 py-2 rounded-sm font-medium transition-all hover:bg-finance-gold-light hover:shadow-[0_0_15px_rgba(212,175,55,0.3)];
+  }
+
+  .btn-outline {
+    @apply border border-finance-gold text-finance-gold px-6 py-2 rounded-sm font-medium transition-all hover:bg-finance-gold hover:text-finance-black;
+  }
+}
