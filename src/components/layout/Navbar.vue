@@ -107,7 +107,7 @@ onUnmounted(() => {
 
 /* Base styles for router active links */
 .router-link-active.nav-link {
-  color: theme('colors.finance.gold');
+  color: theme('colors.gold');
 }
 .router-link-active.nav-link::after {
   width: 100%;
