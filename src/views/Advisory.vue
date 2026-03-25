@@ -25,7 +25,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- Stats Section -->
     <section class="mx-auto w-full max-w-[1200px] px-6 -mt-16 relative z-20">
       <div class="grid grid-cols-1 gap-4 md:grid-cols-3">

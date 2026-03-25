@@ -74,7 +74,7 @@
                     </div>
                 </section>
                 <!-- Culture Section -->
-                <section class="py-24 px-6 md:px-20 bg-neutral-900/30">
+                <section class="py-24 px-6 md:px-20 bg-neutral-900">
                     <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16">
                         <div class="flex-1">
                             <h2 class="text-white text-4xl font-bold tracking-tight mb-8">Working at the <br /><span
@@ -188,7 +188,7 @@
                     </div>
                 </section>
                 <!-- Final CTA -->
-                <section class="py-24 px-6 md:px-20 relative overflow-hidden">
+                <section class="py-24 px-6 md:px-20 relative overflow-hidden bg-background-dark">
                     <div class="absolute inset-0 bg-primary opacity-5"></div>
                     <div class="max-w-4xl mx-auto text-center relative z-10 border-y border-primary/20 py-20">
                         <h2 class="text-white text-4xl md:text-5xl font-bold mb-6 italic tracking-tight">Ready to
@@ -282,3 +282,5 @@
     -webkit-text-fill-color: transparent;
 }
 </style>
+<script setup>
+</script>

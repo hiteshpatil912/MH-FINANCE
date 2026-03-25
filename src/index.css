@@ -10,11 +10,11 @@
 
 @layer components {
   .nav-link {
-    @apply relative text-sm font-medium tracking-wide transition-colors hover:text-finance-gold;
+    @apply relative text-sm font-medium tracking-wide transition-colors hover:text-gold;
   }
   
   .nav-link::after {
-    @apply content-[''] absolute left-0 bottom-[-4px] w-0 h-[2px] bg-finance-gold transition-all duration-300;
+    @apply content-[''] absolute left-0 bottom-[-4px] w-0 h-[2px] bg-gold transition-all duration-300;
   }
   
   .nav-link:hover::after {
@@ -26,10 +26,10 @@
   }
 
   .btn-gold {
-    @apply bg-finance-gold text-finance-black px-6 py-2 rounded-sm font-medium transition-all hover:bg-finance-gold-light hover:shadow-[0_0_15px_rgba(212,175,55,0.3)];
+    @apply bg-gold text-finance-black px-6 py-2 rounded-sm font-medium transition-all hover:bg-goldlight hover:shadow-[0_0_15px_rgba(212,175,55,0.3)];
   }
 
   .btn-outline {
-    @apply border border-finance-gold text-finance-gold px-6 py-2 rounded-sm font-medium transition-all hover:bg-finance-gold hover:text-finance-black;
+    @apply border border-gold text-gold px-6 py-2 rounded-sm font-medium transition-all hover:bg-gold hover:text-finance-black;
   }
 }

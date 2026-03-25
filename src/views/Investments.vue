@@ -191,36 +191,3 @@
 
 <script setup>
 </script>
-
-<style scoped>
-.text-primary {
-  color: #D4AF37
-}
-
-.bg-primary {
-  background-color: #D4AF37
-}
-
-.glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-}
-
-.gold-gradient {
-  background: linear-gradient(135deg, #D4AF37 0%, #F1D57F 50%, #B49026 100%);
-}
-
-.text-gold {
-  color: #D4AF37;
-}
-
-.border-gold {
-  border-color: #D4AF37;
-}
-
-.bg-gold {
-  background-color: #D4AF37;
-}
-</style>

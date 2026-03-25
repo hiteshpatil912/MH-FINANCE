@@ -1,7 +1,7 @@
 <template>
     <div
         class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display transition-colors duration-300">
-        <div class="relative flex h-auto min-screen w-full flex-col overflow-x-hidden">
+        <div class="relative flex h-auto min-screen w-full flex-col overflow-x-hidden bg-background-dark">
             <div class="layout-container flex h-full grow flex-col">
                 <main class="flex flex-col flex-1">
                     <section

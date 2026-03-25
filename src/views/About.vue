@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-background-light dark:bg-background-dark text-slate-300 dark:text-slate-100 font-display">
+    <div class="bg-background-dark text-slate-300 dark:text-slate-100 font-display">
         <main>
             <!-- Hero Section -->
             <section class="relative h-[80vh] flex items-center justify-center overflow-hidden">
